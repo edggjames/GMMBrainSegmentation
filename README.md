@@ -38,3 +38,7 @@ Step 3
 Statistical analysis was then performed to assess the relationship between brain  
 volume (having normalised by total intracranial volume) and age, as well as the  
 relationship between GM/WM and age in the 20 segmented MRI images.  
+
+------
+
+Please refer to Written_Report.pdf for a complete description of this project.
