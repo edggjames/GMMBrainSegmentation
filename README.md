@@ -1,17 +1,17 @@
 # GMMBrainSegmentation
 
 This repository contains the code that I have written to assess the correlation   
-between age and brain volumetric measurements in 20 MRI volumes.
+between age and brain volumetric measurements in 20 MRI images.
 
 Step 1
 ------
 
-Implementing a groupwise registration pipeline to create a groupwise space of 10  
+Implementation of a groupwise registration pipeline to create a groupwise space of 10  
 previously segmented images. This registration task was implemented using NiftyReg  
 tools (see http://cmictig.cs.ucl.ac.uk/wiki/index.php/NiftyReg_documentation and  
-http://cmictig.cs.ucl.ac.uk/wiki/index.php/NiftyReg_install). This was then used   
-to generate mean tissue probability maps for non brain tissue, cerebrospinal  
-fluid (CSF), white matter (WM) and grey matter (GM) for this population.
+http://cmictig.cs.ucl.ac.uk/wiki/index.php/NiftyReg_install). This groupwise space  
+was then used to generate mean tissue probability maps for non brain tissue,  
+cerebrospinal fluid (CSF), white matter (WM) and grey matter (GM) for this population.
 
 Step 2
 ------
